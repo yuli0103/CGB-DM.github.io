@@ -178,12 +178,23 @@ model framework can also be expanded to other graphic design fields.
 <!-- End Method -->
   
   <!-- Comparison -->
-<section class="hero experiment">
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Experiments</h2>
-
+        
+            <h2 class="subtitle">
+                <p>We present the comparison results of our method with other baselines, including:</p>
+                <ul>
+                    <li>GAN-Based models: CGL-GAN<sup>[1]</sup>, DS-GAN<sup>[2]</sup></li>
+                    <li>VAE-Based models: ICVT<sup>[3]</sup></li>
+                    <li>Diffusion-Based models: LayoutDM<sup>[4]</sup> (Designed for content-agnostic layout generation, but added the same Image Encoder to process input images)</li>
+                    <li>RAG-Based models: RALF<sup>[5]</sup></li>
+                </ul>
+                <p>More comparison results can be found in our paper</p>
+            </h2>
+        
           <div class="hero-body">
             <img src="static/images/pku_cgl_un.png" alt="Visual-Compatison Image" style="width:100%; height:auto;">
           </div>
