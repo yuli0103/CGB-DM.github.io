@@ -58,7 +58,7 @@
             padding: 1em 0; /* 调整hero-body的上下内边距 */
         }
     .carousel img {
-      width: 50%; /* 调整图像的宽度，例如设置为50% */
+      width: 40%; /* 调整图像的宽度，例如设置为50% */
       height: auto; /* 保持图像比例 */
     }
     .carousel .item {
@@ -239,36 +239,42 @@ model framework can also be expanded to other graphic design fields.
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/pku_uncon_rows6.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Unconstrained visual comparison on PKU.
-        </h2>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered" style="margin-bottom: 1em;">More Comparisons</h2>
+        
+            <div id="results-carousel" class="carousel results-carousel">
+             <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/pku_uncon_rows6.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered" style="font-size: 0.9em;">
+                Unconstrained visual comparison on PKU.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/cgl_uncon_rows6.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered" style="font-size: 0.9em;">
+                Unconstrained visual comparison on CGL
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/pku_con_rows4_compare.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered" style="font-size: 0.9em;">
+               Constrained visual comparison on PKU.
+             </h2>
+           </div>
+           <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/cgl_con_rows4_compare.png" alt="MY ALT TEXT"/>
+            <h2 class="subtitle has-text-centered" style="font-size: 0.9em;">
+              Constrained visual comparison on CGL
+            </h2>
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/cgl_uncon_rows6.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Unconstrained visual comparison on CGL
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/pku_con_rows4_compare.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Constrained visual comparison on PKU.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/cgl_con_rows4_compare.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Constrained visual comparison on CGL
-      </h2>
     </div>
-  </div>
 </div>
 </div>
 </section>
