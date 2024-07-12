@@ -57,14 +57,25 @@
         .hero-body {
             padding: 1em 0; /* 调整hero-body的上下内边距 */
         }
-    .carousel img {
-      width: 50%; /* 调整图像的宽度，例如设置为50% */
-      height: auto; /* 保持图像比例 */
-    }
-    .carousel .item {
-      text-align: center; /* 确保图片和描述文字居中 */
-      margin-bottom: 1em; /* 增加每个项目底部的空白 */
-    }
+        .carousel {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+        .carousel .item {
+            flex: 0 0 auto;
+            width: 100%; /* 设置每个项目的宽度为100% */
+            text-align: center;
+            margin-bottom: 2em; /* 增加每个项目底部的空白 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .carousel img {
+            max-width: 100%; /* 设置图像的最大宽度为100% */
+            max-height: 400px; /* 设置图像的最大高度 */
+            object-fit: contain; /* 确保图像保持比例 */
+        }
   </style>
 </head>
 <body>
