@@ -43,6 +43,14 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <style>
+        figcaption {
+            text-align: left;
+            font-style: italic;
+            font-size: 0.8em;
+            margin-top: 0.5em;
+        }
+  </style>
 </head>
 <body>
 
@@ -194,10 +202,12 @@ model framework can also be expanded to other graphic design fields.
                 </ul>
                 <p style="margin-bottom: 1em;">More comparison results can be found in our paper.</p>
             </h2>
-        
-          <div class="hero-body">
-            <img src="static/images/pku_cgl_un.png" alt="Visual-Compatison Image" style="width:100%; height:auto;">
-          </div>
+            <div class="hero-body">
+                <figure>
+                    <img src="static/images/pku_cgl_un.png" alt="Visual-Comparison Image" style="width:100%; height:auto;">
+                    <figcaption>Unconstrained Generation</figcaption>
+                </figure>
+            </div>
         
         </div>
      </div>
