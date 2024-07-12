@@ -177,39 +177,31 @@ model framework can also be expanded to other graphic design fields.
 </section>
 <!-- End Method image -->
   
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+  <!-- Comparison -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments</h2>
+            <h2 class="subtitle has-text-centered">
+                    <p>We present the comparison results of our method with other baselines, including:</p>
+                    <ol>
+                        <li>GAN-Based models: CGL-GAN<sup>[1]</sup>, DS-GAN<sup>[2]</sup></li>
+                        <li>VAE-Based models: ICVT<sup>[3]</sup></li>
+                        <li>Diffusion-Based models: LayoutDM<sup>[4]</sup>(Designed for content-agnostic layout generation, but added the same Image Encoder to process input images)</li>
+                        <li>RAG-Based models: RALF<sup>[5]</sup></li>
+                    </ol>
+                    <p>More comparison results can be found in our paper</p>
+              </h2>
+          <div class="hero-body">
+            <img src="static/images/pku_cgl_un.png" alt="Visual-Compatison Image" style="width:100%; height:auto;">
+          </div>
+        
         </div>
       </div>
-    </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- Comparison -->
 
 
 
